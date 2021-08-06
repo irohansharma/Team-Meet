@@ -1,0 +1,80 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: #F8F8F8;
+}
+
+.Main {
+    width: 50%;
+    margin-left: 25%;
+    display: inline-block;
+}
+
+.heading {
+    padding: 20px;
+   /* background: burlywood;*/
+    background: #003566;
+    align-items: center;
+}
+
+.userMessageArea{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+    /*background: lightyellow;*/
+    border-color: black;
+    background: white;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.message {
+    padding: 20px; 
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    max-width: auto;
+    position: relative;
+    background: #e9eafd;
+    color: black;
+}
+.incoming {
+    margin-right: auto; 
+}
+.outgoing {
+    
+    margin-left: auto;
+}
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 15px;
+}
+
+#assistant{
+align: right;
+display: inline; 
+margin-left: 95%;
+background-color:
+whitesmoke;
+font-size: 10px;
+padding: 6px 6px;
+border:none
+
+}
